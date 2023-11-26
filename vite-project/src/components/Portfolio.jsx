@@ -9,7 +9,7 @@ const Portfolio = () => {
         {/* Project 1 */}
         <Project
           title="Cocktail Companions"
-          imageSrc="./assets/Images/Screenshot 2023-08-15 213932.png"
+          imageSrc="../assets/Images/Cocktail.png"
           githubLink="https://github.com/Evanilla57/cocktail-companions"
           liveLink="#"
         />

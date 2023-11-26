@@ -6,16 +6,16 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <Link href="#about">About Me</Link>
+          <Link to="/about">About Me</Link>
         </li>
         <li>
-          <Link href="#work">Portfolio</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link href="#contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link href="#resume">Resume</Link>
+          <Link to="/resume">Resume</Link>
         </li>
       </ul>
     </nav>

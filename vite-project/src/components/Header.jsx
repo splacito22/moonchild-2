@@ -1,22 +1,11 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
     <header>
       <h1>Stephany Placito</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <Navigation />
     </header>
   );
 };

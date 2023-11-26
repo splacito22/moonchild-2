@@ -1,5 +1,8 @@
 import React from "react";
 import Project from "./Project";
+import CocktailImage from "../assets/Images/Cocktail.png";
+import PumprImage from "../assets/Images/Pumpr.png";
+import ComingImage from "../assets/Images/Coming-soon.jpg";
 
 const Portfolio = () => {
   return (
@@ -9,21 +12,21 @@ const Portfolio = () => {
         {/* Project 1 */}
         <Project
           title="Cocktail Companions"
-          imageSrc="../assets/Images/Cocktail.png"
+          imageSrc={CocktailImage}
           githubLink="https://github.com/Evanilla57/cocktail-companions"
           liveLink="#"
         />
         {/* Project 2 */}
         <Project
           title="Pumpr"
-          imageSrc="./assets/Images/Screenshot 2023-10-19 194028.png"
+          imageSrc={PumprImage}
           githubLink="https://github.com/Evanilla57/pumpr/"
           liveLink="#"
         />
         {/* Project 3 */}
         <Project
           title="Application 3"
-          imageSrc="assets/Images/Coming-Soon-Image.jpg"
+          imageSrc={ComingImage}
           githubLink="#"
           liveLink="#"
         />

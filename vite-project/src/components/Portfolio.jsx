@@ -3,6 +3,7 @@ import Project from "./Project";
 import CocktailImage from "../assets/Images/Cocktail.png";
 import PumprImage from "../assets/Images/Pumpr.png";
 import ComingImage from "../assets/Images/Coming-soon.jpg";
+import PurrfectMatchImage from "../assets/Images/Purrfect-match.png";
 
 const Portfolio = () => {
   return (
@@ -26,8 +27,8 @@ const Portfolio = () => {
         {/* Project 3 */}
         <Project
           title="Application 3"
-          imageSrc={ComingImage}
-          githubLink="#"
+          imageSrc={PurrfectMatchImage}
+          githubLink="https://github.com/Kayla-Sullens/Purrfect-Match"
           liveLink="#"
         />
       </div>
